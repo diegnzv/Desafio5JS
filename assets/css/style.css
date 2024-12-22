@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #ccc;
+}
+h1 {
+    text-align: start;
+}
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0;
+}
+#entradaTarea {
+    width:300px;
+}
+.task.completed span {
+    text-decoration: line-through;
+    color: gray;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+table, th, td {
+    border: 1px solid #ccc;
+}
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+th {
+    background-color: #f4f4f4;
+}
+button {
+    margin-left: 5px;
+    padding: 5px;
+    
+}
+#botonAgregarTarea {
+    background-color: #006400;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+input[type="checkbox"] {
+    margin-left: 10px;
+}
+.stats {
+    margin-top: 20px;
+    font-weight: bold;
+}
+.btn-delete {
+    color: red;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
